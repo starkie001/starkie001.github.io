@@ -4,7 +4,7 @@
 }
 body {
       font-family: Arial, sans-serif;
-      /*margin: 2em;*/
+      margin: 0px;
     }
     header {
       text-align: center;
@@ -21,23 +21,31 @@ body {
       top: 0;
       left: 0;
       bottom: 0;
-      border-style: none;
-    }
-    #left-menu {
-      list-style-type: none;
     }
     #profile-image {
       width: 150px;
       height: 150px;
       margin-top: 15px;
     }
+    #left-menu {
+      list-style-type: none;
+    }
     #menu-list {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
+#menu-list a {
+  color: white;
+  text-decoration: none;
+}
     main {
+      background-color: rgb(208, 208, 211);
       flex: auto;
       height: 100vh;
       overflow-y: hidden
+    }
+    main section {
+      padding: 30px;
+      
     }

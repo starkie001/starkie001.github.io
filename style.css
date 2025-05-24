@@ -9,14 +9,15 @@ body {
       margin-top: 2em;
     }
     #nav-section {
-      background-color: rgb(29, 29, 85);
+      background: linear-gradient(to bottom, rgb(29, 29, 85), rgb(25,25,36));
       width: 300px;
       Position: fixed;
       top: 0;
       left: 0;
       bottom: 0;
+      list-style-type: none;
     }
-    img {
+    #profile-image {
       width: 150px;
       height: 150px;
       margin-top: 15px;

@@ -1,20 +1,29 @@
+.container {
+  display: flex;
+  padding: 0;
+}
 body {
       font-family: Arial, sans-serif;
-      margin: 2em;
+      /*margin: 2em;*/
     }
     header {
       text-align: center;
     }
+    
     section {
       margin-top: 2em;
     }
     #nav-section {
       background: linear-gradient(to bottom, rgb(29, 29, 85), rgb(25,25,36));
       width: 300px;
-      Position: fixed;
+      /*height: 100vh;*/
+      /*Position: fixed;*/
       top: 0;
       left: 0;
       bottom: 0;
+      border-style: none;
+    }
+    #left-menu {
       list-style-type: none;
     }
     #profile-image {
@@ -26,4 +35,9 @@ body {
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+    main {
+      flex: auto;
+      height: 100vh;
+      overflow-y: hidden
     }

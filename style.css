@@ -59,19 +59,23 @@ main {
 }
 
 main section {
+  height: 100vh;
   padding: 30px;
 }
 
 #homepage {
-  Width: 100%;
-  Height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-image: url("https://wallpapers.com/images/high/cool-profile-picture-paper-bag-head-4co57dtwk64fb7lv.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-size: xx-large;
 }
 
-#main-image {
-  Height: 100vh;
-  Width: 175vh;
+#homepage h1 {
+  color: rgb(241, 27, 12);
 }

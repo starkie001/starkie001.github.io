@@ -32,6 +32,11 @@ section {
   margin-top: 15px;
 }
 
+#nav-section h1 {
+   /*color: rgb(241, 27, 12);*/
+  /*-webkit-text-stroke: 0.5px rgb(241, 27, 12);*/
+}
+
 #left-menu {
   list-style-type: none;
 }
@@ -60,7 +65,9 @@ main {
 
 main section {
   height: 100vh;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: xx-large;
 }
 
 #homepage {
@@ -78,4 +85,5 @@ main section {
 
 #homepage h1 {
   color: rgb(241, 27, 12);
+  -webkit-text-stroke: 2px black;
 }

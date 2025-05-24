@@ -2,50 +2,77 @@
   display: flex;
   padding: 0;
 }
+
 body {
-      font-family: Arial, sans-serif;
-      margin: 0px;
-    }
-    header {
-      text-align: center;
-    }
-    
-    section {
-      margin-top: 2em;
-    }
-    #nav-section {
-      background: linear-gradient(to bottom, rgb(29, 29, 85), rgb(25,25,36));
-      width: 300px;
-      /*height: 100vh;*/
-      /*Position: fixed;*/
-      top: 0;
-      left: 0;
-      bottom: 0;
-    }
-    #profile-image {
-      width: 150px;
-      height: 150px;
-      margin-top: 15px;
-    }
-    #left-menu {
-      list-style-type: none;
-    }
-    #menu-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  margin-top: 2em;
+}
+
+#nav-section {
+  background: linear-gradient(to bottom, rgb(29, 29, 85), rgb(25, 25, 36));
+  width: 300px;
+  /*height: 100vh;*/
+  /*Position: fixed;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#profile-image {
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+}
+
+#left-menu {
+  list-style-type: none;
+}
+
+#menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-list li {
+  margin-bottom: 30px;
+}
+
 #menu-list a {
   color: white;
   text-decoration: none;
 }
-    main {
-      background-color: rgb(208, 208, 211);
-      flex: auto;
-      height: 100vh;
-      overflow-y: hidden
-    }
-    main section {
-      padding: 30px;
-      
-    }
+
+main {
+  background-color: rgb(208, 208, 211);
+  flex: auto;
+  height: 100vh;
+  overflow-y: scroll
+}
+
+main section {
+  padding: 30px;
+
+}
+
+#homepage {
+  Width: 100%;
+  Height: 100%;
+  background-image: url("https://wallpapers.com/images/high/cool-profile-picture-paper-bag-head-4co57dtwk64fb7lv.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main-image {
+  Height: 100vh;
+  Width: 175vh;
+}
